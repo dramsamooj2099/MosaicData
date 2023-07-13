@@ -1,0 +1,11 @@
+2023-05-03 21:45:51,845 INFO  MappingAmbassador - processInteraction(): org.eclipse.mosaic.interactions.traffic.VehicleRoutesInitialization
+2023-05-03 21:45:51,846 INFO  MappingAmbassador - processInteraction(): org.eclipse.mosaic.interactions.mapping.advanced.ScenarioTrafficLightRegistration
+2023-05-03 21:45:51,846 INFO  MappingAmbassador - Received TL-Interaction
+2023-05-03 21:45:51,846 INFO  RoadSideUnitSpawner - Creating RSU @GeoPoint{lat=41.632532,lon=-71.005533,alt=0.00} with apps: RSUComApp5
+2023-05-03 21:45:51,847 INFO  RoadSideUnitSpawner - Creating RSU @GeoPoint{lat=41.624905,lon=-71.005030,alt=0.00} with apps: RSUComApp5
+2023-05-03 21:45:51,847 INFO  RoadSideUnitSpawner - Creating RSU @GeoPoint{lat=41.630023,lon=-71.011284,alt=0.00} with apps: RSUComApp5
+2023-05-03 21:45:51,860 INFO  VehicleFlowGenerator - Creating Vehicle. time=5000000000, name=veh_0, route=2, laneSelectionMode=BEST, lane=-1, departureConnectionIndex0, pos=0, type=Vehicle: name=Car1, apps=VehicleCommunicationApp1, departSpeed=0.0, apps=[VehicleCommunicationApp1]
+2023-05-03 21:45:51,861 INFO  VehicleFlowGenerator - Creating Vehicle. time=5000000000, name=veh_1, route=2, laneSelectionMode=BEST, lane=-1, departureConnectionIndex0, pos=0, type=Vehicle: name=Car2, apps=VehicleSendApp2, departSpeed=0.0, apps=[VehicleSendApp2]
+2023-05-03 21:45:51,870 INFO  VehicleFlowGenerator - Creating Vehicle. time=7000000000, name=veh_2, route=2, laneSelectionMode=BEST, lane=-1, departureConnectionIndex0, pos=0, type=Vehicle: name=Car1, apps=VehicleCommunicationApp1, departSpeed=0.0, apps=[VehicleCommunicationApp1]
+2023-05-03 21:45:51,885 INFO  VehicleFlowGenerator - Creating Vehicle. time=9000000000, name=veh_3, route=2, laneSelectionMode=BEST, lane=-1, departureConnectionIndex0, pos=0, type=Vehicle: name=Car1, apps=VehicleCommunicationApp1, departSpeed=0.0, apps=[VehicleCommunicationApp1]
+2023-05-03 21:45:51,893 INFO  VehicleFlowGenerator - Creating Vehicle. time=11000000000, name=veh_4, route=2, laneSelectionMode=BEST, lane=-1, departureConnectionIndex0, pos=0, type=Vehicle: name=Car1, apps=VehicleCommunicationApp1, departSpeed=0.0, apps=[VehicleCommunicationApp1]
