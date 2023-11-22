@@ -1,0 +1,21 @@
+2023-09-25 08:46:22,223 INFO  ROOT - Running Eclipse MOSAIC 22.1 on Java JRE v17.0.7 (Eclipse Adoptium)
+2023-09-25 08:46:22,297 INFO  MosaicStarter - Federate sumo: No port given. Using free port: 51679
+2023-09-25 08:46:22,305 INFO  FederationManagement - Start federation with id 'UMassDart42'
+2023-09-25 08:46:22,306 INFO  FederationManagement - Add ambassador/federate with id 'application'
+2023-09-25 08:46:22,307 INFO  FederationManagement - Add ambassador/federate with id 'mapping'
+2023-09-25 08:46:22,307 INFO  FederationManagement - Add ambassador/federate with id 'cell'
+2023-09-25 08:46:22,308 INFO  FederationManagement - Add ambassador/federate with id 'sns'
+2023-09-25 08:46:22,308 INFO  FederationManagement - Add ambassador/federate with id 'sumo'
+2023-09-25 08:46:22,309 INFO  FederationManagement - Deploying federate 'sumo' locally in .\tmp\sumo
+2023-09-25 08:46:22,321 INFO  FederationManagement - Starting federate 'sumo' locally in .\tmp\sumo
+2023-09-25 08:46:22,322 INFO  FederationManagement - Add ambassador/federate with id 'output'
+2023-09-25 08:46:22,322 INFO  OutputAmbassador - Initialize configuration of OutputAmbassador
+2023-09-25 08:46:22,334 WARN  FileOutputLoader - decimalSeparator is required to be one character, defaulting to '.' as decimal separator.
+2023-09-25 08:46:23,650 INFO  OutputAmbassador - Registered output generator 'websocket' for messages [RsuRegistration, VehicleRegistration, VehicleUpdates, V2xMessageReception, V2xMessageTransmission]. Update interval=1
+2023-09-25 08:46:23,650 INFO  OutputAmbassador - Registered output generator 'fileoutput' for messages [VehicleRegistration, VehicleUpdates]. Update interval=5
+2023-09-25 08:46:26,440 INFO  SequentialTimeManagement - Simulation ended after 600s of 600s (100%)
+2023-09-25 08:46:26,441 INFO  SequentialTimeManagement - Started: 2023-09-25 08:46:24
+2023-09-25 08:46:26,441 INFO  SequentialTimeManagement - Ended: 2023-09-25 08:46:26
+2023-09-25 08:46:26,443 INFO  SequentialTimeManagement - Duration: 00h 00m 02.436s (RTF: 246.00)
+2023-09-25 08:46:26,443 INFO  SequentialTimeManagement - 
+2023-09-25 08:46:26,444 INFO  SequentialTimeManagement - Simulation finished: 101

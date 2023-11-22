@@ -1,0 +1,52 @@
+2023-09-25 08:46:00,564 WARN  SumoAmbassador - The file scenarios\UMassDart23\sumo\sumo_config.json does not exist.
+2023-09-25 08:46:00,565 INFO  SumoAmbassador - sumoConfig.updateInterval: 1000
+2023-09-25 08:46:00,565 INFO  SumoAmbassador - sumoConfig.sumoConfigurationFile: null
+2023-09-25 08:46:00,567 INFO  SumoAmbassador - Found a SUMO configuration file: scenarios\UMassDart23\sumo\UMassDart23.sumocfg
+2023-09-25 08:46:00,567 INFO  SumoAmbassador - sumoConfig.sumoConfigurationFile: UMassDart23.sumocfg
+2023-09-25 08:46:00,574 INFO  SumoAmbassador - Simulation step size is 1.0 sec.
+2023-09-25 08:46:02,506 INFO  SumoVehicleTypesWriter - .\tmp\sumo\mosaic_types.add.xml file successfully written.
+2023-09-25 08:46:02,507 INFO  SumoAmbassador - Start Federate local
+2023-09-25 08:46:02,507 INFO  SumoAmbassador - Directory: .\tmp\sumo
+2023-09-25 08:46:03,551 INFO  SumoAmbassador - Process sumo : Loading net-file from 'UMassDart23.net.xml' ... done (16ms).
+2023-09-25 08:46:03,554 INFO  SumoAmbassador - Process sumo : Loading additional-files from 'mosaic_types.add.xml' ... done (1ms).
+2023-09-25 08:46:03,554 INFO  SumoAmbassador - Process sumo : Loading done.
+2023-09-25 08:46:03,554 INFO  SumoAmbassador - Process sumo : Simulation version 1.15.0 started with time: 0.00.
+2023-09-25 08:46:03,555 WARN  TraciClientBridge - This SUMO Version SUMO 1.15.0 is currently not supported (but might work anyhow).
+2023-09-25 08:46:03,559 INFO  SumoAmbassador - Current API version of SUMO is 20 (=SUMO 1.14.*)
+2023-09-25 08:46:03,632 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_0" received at simulation time 5000000000 ns (subscribe=true)
+2023-09-25 08:46:03,632 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_1" received at simulation time 5000000000 ns (subscribe=true)
+2023-09-25 08:46:03,633 INFO  SumoAmbassador - Adding new vehicle "veh_0" at simulation time 5000000000 ns (type=Car1, routeId=2, laneId=best, departPos=0.00)
+2023-09-25 08:46:03,634 INFO  SumoAmbassador - Adding new vehicle "veh_1" at simulation time 5000000000 ns (type=Car2, routeId=2, laneId=best, departPos=0.00)
+2023-09-25 08:46:03,641 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_2" received at simulation time 7000000000 ns (subscribe=true)
+2023-09-25 08:46:03,648 INFO  SumoAmbassador - Adding new vehicle "veh_2" at simulation time 7000000000 ns (type=Car1, routeId=2, laneId=best, departPos=0.00)
+2023-09-25 08:46:03,663 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_3" received at simulation time 9000000000 ns (subscribe=true)
+2023-09-25 08:46:03,669 INFO  SumoAmbassador - Adding new vehicle "veh_3" at simulation time 9000000000 ns (type=Car1, routeId=2, laneId=best, departPos=0.00)
+2023-09-25 08:46:03,681 INFO  SumoAmbassador - VehicleRegistration from RTI "veh_4" received at simulation time 11000000000 ns (subscribe=true)
+2023-09-25 08:46:03,687 INFO  SumoAmbassador - Adding new vehicle "veh_4" at simulation time 11000000000 ns (type=Car1, routeId=2, laneId=best, departPos=0.00)
+2023-09-25 08:46:04,619 INFO  SimulationFacade - Removed vehicle "veh_0" at simulation time 473000000000ns
+2023-09-25 08:46:04,622 INFO  SimulationFacade - Removed vehicle "veh_1" at simulation time 475000000000ns
+2023-09-25 08:46:04,624 INFO  SimulationFacade - Removed vehicle "veh_2" at simulation time 477000000000ns
+2023-09-25 08:46:04,624 INFO  SimulationFacade - Removed vehicle "veh_3" at simulation time 478000000000ns
+2023-09-25 08:46:04,624 INFO  SimulationFacade - Removed vehicle "veh_4" at simulation time 480000000000ns
+2023-09-25 08:46:04,637 INFO  SumoAmbassador - Closing SUMO connection
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #0.00 (0ms ?*RT. ?UPS, TraCI: 62ms, vehicles TOT 0 ACT 0 BUF 0)                      
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #100.00 (0ms ?*RT. ?UPS, TraCI: 2ms, vehicles TOT 5 ACT 5 BUF 0)                     
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #200.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 5 ACT 5 BUF 0)                     
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #300.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 5 ACT 5 BUF 0)                     
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #400.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 5 ACT 5 BUF 0)                     
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #500.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 5 ACT 0 BUF 0)                     
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Step #600.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 5 ACT 0 BUF 0)                     
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : 
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Simulation ended at time: 600.00
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Reason: TraCI requested termination.
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Performance: 
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  Duration: 1.09s
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  TraCI-Duration: 1.06s
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  Real time factor: 552.995
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  UPS: 2150.230415
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : Vehicles: 
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  Inserted: 5
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  Running: 0
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo :  Waiting: 0
+2023-09-25 08:46:04,638 INFO  SumoAmbassador - Process sumo : 
+2023-09-25 08:46:04,698 INFO  SumoAmbassador - Finished simulation

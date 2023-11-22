@@ -1,0 +1,14 @@
+2023-11-20 22:22:26,129 INFO  CellAmbassador - Start Cell
+2023-11-20 22:22:26,145 INFO  CellAmbassador - Using network config:
+2023-11-20 22:22:26,145 INFO  CellAmbassador - org.eclipse.mosaic.fed.cell.config.model.CNetworkProperties@7593ea79[id=globalNetwork,uplink.delay=[delayType: ConstantDelay, delay: 100000000],uplink.capacity=28000000,downlink.unicast.delay=[delayType: ConstantDelay, delay: 100000000],downlink.multicast.delay=[delayType: ConstantDelay, delay: 100000000],downlink.multicast.usableCapacity=0.6,downlink.capacity=42200000]
+2023-11-20 22:22:26,160 INFO  CellAmbassador - Using region config:
+2023-11-20 22:22:26,160 INFO  CellAmbassador - 
+2023-11-20 22:22:26,160 INFO  ChainManager - Initialize ChainManager
+2023-11-20 22:22:26,160 INFO  ChainManager - Adding Module Upstream
+2023-11-20 22:22:26,160 INFO  ChainManager - Adding Module Geocaster
+2023-11-20 22:22:26,160 INFO  ChainManager - Adding Module Downstream
+2023-11-20 22:22:26,160 INFO  CellAmbassador - Finished Initialization, waiting for Interactions...
+2023-11-20 22:22:28,122 INFO  CellAmbassador - FinishSimulation
+2023-11-20 22:22:28,122 INFO  ChainManager - [Upstream] Processed messages: 0
+2023-11-20 22:22:28,122 INFO  ChainManager - [Geocaster] Processed messages: 0
+2023-11-20 22:22:28,122 INFO  ChainManager - [Downstream] Processed messages: 0
